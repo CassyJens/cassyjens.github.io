@@ -1,4 +1,4 @@
-cassandrajens.github.io
+cassyjens.github.io
 =======================
 
 personal website
