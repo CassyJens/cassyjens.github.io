@@ -34,5 +34,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['less', 'exec', 'watch']);
+    grunt.registerTask('default', ['less', 'watch']);
+    grunt.registerTask('dev', ['less', 'exec', 'watch']);
 };
