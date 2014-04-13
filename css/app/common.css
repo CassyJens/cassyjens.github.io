@@ -15,33 +15,33 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: @body;
+  font-size: 12px;
   text-align: center;
 }
 
 h1 {
-    font-size: @h1;
+    font-size: 1.5em;
     font-weight: light;
 }
 
 h2 {
-    font-size: @h2;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: @h3;
+    font-size: 1.3em;
 }
 
 h4 {
-    font-size: @h4;
+    font-size: 1.2em;
 }
 
 h5 {
-    font-size: @h5;
+    font-size: 1.1em;
 }
 
 p {
-    font-size: @p;
+    font-size: 1em;
 }
 
 h1 { margin-bottom: 1em; }
