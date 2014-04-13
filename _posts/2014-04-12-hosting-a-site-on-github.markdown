@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Using GoDaddy domain name for username.github.io"
-date:   2014-04-12 11:32:47
+title: "Using GoDaddy domain name for GitHub Pages username.github.io"
+date: 2014-04-12 11:32:47
 ---
-Excellent documentation exists for setting up a website via Github Pages
+Excellent [documentation](https://help.github.com/categories/20/articles)
+exists for setting up a website via Github Pages
 at https://pages.github.com/. In just a few simple steps, it's possible to see
 the results of your index.html file hosted at username.github.io. Love it!
 
