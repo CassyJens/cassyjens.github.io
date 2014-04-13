@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Using GoDaddy domain name for username.github.io</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom Type -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/lib/reset.css">
+        <link rel="stylesheet" href="/css/lib/bootstrap.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+            <div class="header">
+                <h1 class="title">
+                    <a href="/">
+                        Cassandra Jens
+                    </a>
+                </h1>
+                <a class="extra" href="/">
+                    home
+                </a>
+            </div>
+
+            <h2>
+    Using GoDaddy domain name for username.github.io
+</h2>
+
+<p class="meta">
+    12 Apr 2014
+</p>
+
+<div class="post">
+    <p>Excellent documentation exists for setting up a website via Github Pages
+at https://pages.github.com/. In just a few simple steps, it&#39;s possible to see
+the results of your index.html file hosted at username.github.io. Love it!</p>
+
+<p>What I wanted to do was to use a special domain name (cassandrajens.me) for this
+site. I purchased my domain name from https://godaddy.com.</p>
+
+<p>To set up your Github page with a domain name from GoDaddy, here are a few simple
+steps.</p>
+
+<ol>
+<li>Go to https://godaddy.com</li>
+<li>Log in to your account (sign in)</li>
+<li>The landing page contains a table containing rows of GoDaddy services/solutions.
+You&#39;ll want to find <strong>DOMAINS</strong> and click <strong>LAUNCH</strong>.</li>
+<li>In the main navigation, find the <strong>DNS</strong> dropdown and select <strong>DNS Manager</strong>.</li>
+<li>Under your desired domain name, select <strong>EDIT ZONE</strong>.</li>
+<li>Add a <strong>CNAME alias</strong> for www, using the following parameters:
+
+<ul>
+<li>Host: www</li>
+<li>Points To: username.github.io</li>
+</ul></li>
+</ol>
+
+<p>Your domain name, hosted by GoDaddy, will now resolve to the IP address
+for username.github.io. Happy website building!</p>
+
+</div>
+
+
+            <div class="footer">
+                <div class="contact">
+                    <p>
+                        Cassandra Jens <br />
+                        Software Engineer
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>
+                        <a href="https://github.com/cassyjens">github.com/cassyjens</a><br />
+                        <a href="https://twitter.com/cassandrajens">twitter.com/cassandrajens</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
