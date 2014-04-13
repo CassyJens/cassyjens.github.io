@@ -1,4 +1,14 @@
-cassandrajens.github.io
+cassandra jens
 =======================
 
-personal website
+A personal website.
+
+## dependencies
++ Ruby
++ Node.js
++ NPM
+
+## build
++ npm install grunt-exec
++ npm install
++ grunt
