@@ -1,0 +1,21 @@
+{
+    "name": "cassandrajens",
+    "version": "0.0.1",
+    "description": "A personal website",
+    "author": "Cassandra Jens",
+    "keywords": [
+        "personal",
+        "website"
+    ],
+    "license": "BSD-2-Clause",
+    "main": "Gruntfile.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CassyJens/cassyjens.github.io"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-less": "~0.6.4",
+        "grunt-contrib-watch": "~0.4.4"
+    }
+}
