@@ -2,7 +2,6 @@
 layout: post
 title:  "Using GoDaddy domain name for username.github.io"
 date:   2014-04-12 11:32:47
-categories: github DNS
 ---
 Excellent documentation exists for setting up a website via Github Pages
 at https://pages.github.com/. In just a few simple steps, it's possible to see
