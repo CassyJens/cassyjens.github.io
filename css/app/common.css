@@ -40,6 +40,7 @@ h2,
 h3,
 h4,
 h5 {
+    transition: color linear 1s;
     color: #ABF000;
 }
 
@@ -54,8 +55,8 @@ a:active {
 }
 
 a:hover {
-    color: #48B8F2;
-    opacity: 0.6;
+    transition: opacity linear 1s;
+    opacity: 0.5;
 }
 
 .table > thead > tr > th,
