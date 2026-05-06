@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spellexi – Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; color: #1a1a1a; line-height: 1.7; }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    .subtitle { color: #666; margin-top: 0; margin-bottom: 40px; font-size: 0.95rem; }
+    h2 { font-size: 1.1rem; margin-top: 36px; margin-bottom: 8px; }
+    p, li { font-size: 0.97rem; }
+    ul { padding-left: 1.4em; }
+    a { color: #6b3fa0; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 40px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="subtitle">Spellexi &nbsp;·&nbsp; Last updated: May 7, 2026</p>
+
+<p>Spellexi is a spelling practice app for families. It helps parents track their child's spelling progress using handwritten spelling tests, AI-powered grading, and spaced repetition. This policy explains what data we collect, how we use it, and your rights.</p>
+
+<h2>Who uses Spellexi</h2>
+<p>Spellexi accounts are created and managed by parents or guardians (18 or older). Children do not create accounts or interact with Spellexi directly — parents take photos of their child's handwritten work and review the results. By creating an account, you confirm that you are the parent or guardian of any child whose data you add to the app.</p>
+
+<h2>What we collect</h2>
+<ul>
+  <li><strong>Account information.</strong> Your email address and a password (stored by our authentication provider, Supabase). We do not collect your name.</li>
+  <li><strong>Child profile data.</strong> The first name (or nickname) you use for each student profile. We do not collect a child's date of birth, last name, or any government identifier.</li>
+  <li><strong>Spelling session photos.</strong> When you photograph your child's handwritten spelling test, that image is uploaded to our secure cloud storage (Supabase) for AI grading, then retained as a record of the session. Photos are associated with your account only.</li>
+  <li><strong>Spelling performance data.</strong> Words practiced, results (correct/incorrect), written-as text transcribed from the photo, tips generated, and spaced-repetition scheduling data. All tied to your account and stored on Supabase.</li>
+</ul>
+
+<h2>How we use your data</h2>
+<ul>
+  <li><strong>AI grading.</strong> Session photos are sent to Anthropic's Claude API to identify what the child wrote for each word. Anthropic processes the image and returns the grading result; we do not use your data to train Anthropic's models. Anthropic's privacy policy is at <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</li>
+  <li><strong>Spelling tips.</strong> Word and misspelling pairs are sent to Claude to generate a short, personalized tip when no pre-written tip exists for that combination. The tip is then cached in our database so it is not regenerated.</li>
+  <li><strong>Progress tracking.</strong> Performance data is used to schedule future practice sessions (spaced repetition) and to show you progress over time.</li>
+  <li>We do not use your data for advertising, do not sell your data, and do not share it with any third party except Anthropic (for AI processing) and Supabase (for storage and authentication).</li>
+</ul>
+
+<h2>Data storage and security</h2>
+<p>All data is stored on Supabase infrastructure, hosted on AWS. Data is encrypted in transit (TLS) and at rest. Access is controlled by row-level security policies — each account can only read its own data. Supabase's privacy policy is at <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a>.</p>
+
+<h2>Children's privacy</h2>
+<p>Spellexi is designed to be used <em>by parents</em> to support their child's learning — not directly by children. We do not knowingly collect personal information directly from children under 13. All data about a child's spelling performance is provided by and accessible only to the parent account holder. If you believe a child has created an account without parental consent, contact us at the address below and we will delete it promptly.</p>
+
+<h2>Data retention and deletion</h2>
+<p>Your data is retained for as long as your account is active. You can delete your account and all associated data at any time from the Settings screen within the app. Session photos and performance data are deleted immediately and permanently upon account deletion. If you need assistance, contact us at the address below.</p>
+
+<h2>Your rights</h2>
+<p>You may request a copy of your data, correction of inaccurate data, or deletion of your account and all associated data at any time. To exercise these rights, use the in-app deletion feature or contact us directly.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy as the app evolves. We will update the "Last updated" date above and, for material changes, notify you within the app.</p>
+
+<hr />
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:cassandraconnects@gmail.com">cassandraconnects@gmail.com</a></p>
+
+</body>
+</html>
